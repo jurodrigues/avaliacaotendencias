@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>avaliacaofinal</title>
+<meta charset="ISO-8859-1">
+<title>Avaliação Final</title>
+<link rel="stylesheet" type="text/css" href="css/padrao.css">
 </head>
 <body>
-	<script src="js/main.js"></script>
+	<div class="form">
+		<label>Nome: </label><input type="text" name="nome"><br /> <label>Idade:
+		</label><input type="text" name="idade"> <br /> <label>Sexo:
+		</label> <input type="radio" name="sex" value="masc">Masculino 
+		         <input	type="radio" name="sex" value="fem">Feminino<br/> 
+		<label>Cor:</label>
+		<select>
+			<option>Branco</option>
+			<option>Preto</option>
+			<option>Azul</option>
+			<option>Amarelo</option>
+			<option>Vermelho</option>
+			<option>Rosa</option>
+			<option>Verde</option>
+		</select>
+		<button type="submit">Salvar</button>
+	</div>
+	<div class="lista">
+		<div class="container">
+			<div class="imagem">
+				<img src="img/masc.png" style="text-align: left;">
+
+			</div>
+			<div class="descrição">
+				Fernando<br /> 30 Anos<br /> Azul
+			</div>
+		</div>
+		<div class="container">
+			<div class="imagem">
+				<img src="img/fem.png" style="text-align: left;">
+
+			</div>
+			<div class="descrição">
+				Juliana<br /> 26 Anos<br /> Rosa
+			</div>
+		</div>
+	</div>
 </body>
 </html>

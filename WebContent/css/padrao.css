@@ -1,6 +1,28 @@
-body{
-	
+@CHARSET "ISO-8859-1";
+.form{
+	float: left;
+	width: 100%
 }
 
+.lista{
+	float: left;
+	width: 100%
+}
 
+.imagem{
+	float: left;
+	width: 120px;
+}
+
+.descricao{
+	float: left;
+	width: 50px;
+}
+
+.container{
+	float: left;
+	border: 1px solid black;
+	width: 200px;
+	height: 120px;
+}
 
